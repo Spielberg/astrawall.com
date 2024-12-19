@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Poppins", sans-serif;
+}
+.container{
+	padding: 0 15px;
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+.hero_img_tag{
+	display: block;
+    object-fit: cover;
+}
+.hero_col_content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero_description {
+    font-size: 18px;
+    display: flex;
+    flex-flow: column;
+    gap: 15px 0;
+    color: #121212;
+}
+.main_footer {
+    border-top: 1px solid #E2E2E2;
+    padding: 15px 0;
+    background-color: #005fbb;
+}
+.footer_mail {
+    color: #ffffff;
+    transition: all 0.3s;
+    display: inline-block;
+}
+.footer_mail:hover {
+    opacity: 0.7;
+}
+.footer_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_address{
+	color: #ffffff;
+}
+.footer_col{
+	width: 50%;
+}
+.footer_col_right {
+    text-align: right;
+}
+.hero_img{
+	position: relative;
+}
+.astrawall_logo {
+    text-align: center;
+	margin: 0 auto;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+}
+.astrawall_logo img {
+	width: 290px;
+}
+.header_logo{
+	display: inline-block;
+}
+@media screen and (max-width: 767px){
+	.hero_title {
+	    font-size: 22px;
+	    line-height: 1.4;
+	}
+	.hero_description{
+		font-size: 16px;
+	}
+	.footer_col{
+		width: 100%;
+	}
+	.footer_col_left,
+	.footer_col_right{
+	    text-align: center;
+	}
+	.footer_col_right{
+		padding-top: 15px;
+	}
+	.hero_img_tag {
+	    min-height: 390px;
+	}
+}
